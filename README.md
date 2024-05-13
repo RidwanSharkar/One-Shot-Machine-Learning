@@ -1,7 +1,7 @@
 **One-Shot House Price Estimation Using Machine Learning**
 
 Overview:
-This C program implements a simple machine learning algorithm to estimate house prices based on various attributes such as the number of bedrooms, bathrooms, square footage, and year of construction. The program utilizes a form of "one-shot learning", consisting of a linear regression model and matrix operations, that determes weight coefficients that best fit a provided training dataset to predict future values. The learning process involves calculating these weights using the method of least squares, particularly by finding the pseudo-inverse of the matrix formed by feature data. This pseudo-inverse is used to solve the normal equations derived from minimizing the sum of squared differences between the predicted and actual prices. These weights are then applied to new data to predict house prices. 
+This C program implements a simple machine learning algorithm to estimate house prices based on various attributes such as the number of bedrooms, bathrooms, square footage, and year of construction. The program utilizes a form of "one-shot learning", consisting of a linear regression model and matrix operations, that determines weight coefficients that best fit a provided training dataset to predict future values. The learning process involves finding the pseudo-inverse of the matrix formed by the training set, which is then used to solve the normal equations derived from minimizing the sum of squared differences between the predicted and actual prices. These weights are then applied to new data to predict house prices. 
 
 ________________________________________________________
 
